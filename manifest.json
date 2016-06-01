@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "IMDB ratings for movies",
+  "description": "This extension fetches IMDB ratings for a movie being streamed",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "movie-ratings.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
